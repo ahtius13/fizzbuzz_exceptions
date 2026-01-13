@@ -1,18 +1,20 @@
+i = None
 
+while i != 1:
+      
+   try:
+      number = int(input ("introduce un nº del 1 al 100: "))
+      
+      if number < 1 or number > 100:
+         raise ValueError ("El nº debe ser entre 1 y 100")
+      else:
+         i = 1
+      
+   except ValueError:
+      print("Debe introducir un nº")
+      i = 0
 
-while i =/= 1
    
-try:
-   number = int(input ("introduce un nº del 1 al 100: "))
-   
-except ValueError:
-   print("Debe introducir un nº")
-   i = 0
-
-if number < 1 or number > 100:
-   raise ValueError ("El nº debe ser entre 1 y 100")
-else:
-   i = 1
 
 resultado3 = number % 3
 
