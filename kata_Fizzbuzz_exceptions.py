@@ -1,16 +1,32 @@
-import math
 
-number = int(input ("introduce un nº del 1 al 100: "))
 
-resultado3 = number%3
+while i =/= 1
+   
+try:
+   number = int(input ("introduce un nº del 1 al 100: "))
+   
+except ValueError:
+   print("Debe introducir un nº")
+   i = 0
 
-resultado5 = number%5
+if number < 1 or number > 100:
+   raise ValueError ("El nº debe ser entre 1 y 100")
+else:
+   i = 1
+
+resultado3 = number % 3
+
+resultado5 = number % 5
 
 if resultado3 == 0 and resultado5 == 0:
-    print ("FizzBuzz")
+   final = print ("FizzBuzz")
 elif resultado3 == 0:
-    print ("Fizz")
+   final = print ("Fizz")
 elif resultado5 == 0:
-    print ("Buzz")
+   Final = print ("Buzz")
 else:
-    print(number)
+   final = print(number)
+
+
+
+
