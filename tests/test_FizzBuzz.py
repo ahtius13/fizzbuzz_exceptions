@@ -1,4 +1,4 @@
-
+import 
 
 def test_regla_numMenor():
     #valida que salta una excepción al meter un nº menor que 1
@@ -14,7 +14,11 @@ def test_error_cadena():
 
 def test_resto3_0():
     #valida que el resto de la división de un nº entre 3 sea 0
-    pass
+    
+    if fizzbuzz(3) == "Fizz"
+        valido = True
+        
+    return valido
 
 def test_resto3_X():
     #valida que el resto de la división de un nº entre 3 sea distinta de 0
