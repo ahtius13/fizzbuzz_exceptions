@@ -1,3 +1,6 @@
+
+def fizzbuzz(n) -> str:
+
 i = None
 
 while i != 1:
@@ -30,5 +33,5 @@ else:
    final = print(number)
 
 
-
+return str(final)
 
